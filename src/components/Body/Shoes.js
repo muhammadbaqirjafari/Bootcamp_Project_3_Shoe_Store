@@ -3,6 +3,8 @@ import { Outlet } from 'react-router-dom'
 
 export default function Shoes() {
     return (
-        <Outlet/>
+        <div style={{marginBottom:'1.5%'}}>
+            <Outlet/>
+        </div>
     )
 }

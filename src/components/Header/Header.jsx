@@ -10,11 +10,13 @@ import SearchIcon from '@material-ui/icons/Search';
 import styles from './Header.module.css';
 import cx from 'classnames'
 import { NavLink } from 'react-router-dom'
+import './Header.css';
 import { Grid } from '@material-ui/core'
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    overflow: 'hidden',
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -58,9 +60,6 @@ const useStyles = makeStyles((theme) => ({
         width: '20ch',
       },
     },
-  },
-  active : {
-    border: '2px solid black',
   }
 }));
 
@@ -71,9 +70,9 @@ export default function Header() {
     <div className={classes.root}>
       <AppBar position="static" color="transparent">
         <Toolbar>
-          <Grid container>
+          <Grid container style={{paddingBottom: '1.5%'}}>
 
-            <Grid item xs={3} className={styles.grid1}>
+            <Grid item xs={12} md={12} lg={2} className={styles.grid1}>
               <IconButton
                 edge="start"
                 className={classes.menuButton}
@@ -87,7 +86,7 @@ export default function Header() {
               </Typography>
             </Grid>
 
-            <Grid item className={styles.links} xs={6}>
+            <Grid item xs={12} md={12} lg={8} className={styles.links}>
               <NavLink to="home" className={ styles.link}>
                   Home
               </NavLink>
@@ -99,7 +98,7 @@ export default function Header() {
               </NavLink>
             </Grid>
 
-            <Grid item xs={2} className={cx(classes.search, styles.grid3)}>
+            <Grid item lg={1} className={cx(classes.search, styles.grid3)}>
               <div className={classes.searchIcon}>
                 <SearchIcon />
               </div>

@@ -13,16 +13,20 @@
     padding-bottom: 5% !important;
 }
 
-.text2 {
+.text2, .text3 {
     font-family : Fondamento !important;
     text-align: center !important;
     padding-bottom: 5% !important;
 }
 
-.text3 {
+.text4 {
     font-family : Fondamento !important;
     text-align: center !important;
-    padding-bottom: 10% !important;
+}
+
+.emoji {
+    font-size: 6rem !important;
+    padding-bottom: 10%;
 }
 
 .facebook {
@@ -50,4 +54,24 @@
 
 .facebook:hover {
     font-size: 3rem;
+}
+
+@media (max-width : 900px) {
+    .name {
+        font-size: 2rem;
+    }
+
+    .name:hover {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width : 470px) {
+    .name {
+        font-size : 1rem
+    }
+
+    .name:hover {
+        font-size: 1rem
+    }
 }

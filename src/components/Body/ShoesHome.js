@@ -7,10 +7,10 @@ import { Outlet } from 'react-router-dom'
 
 export default function ShoesHome() {
     return (
-        <Grid container className={styles.container}>
+        <Grid container justify="center" spacing={3} className={styles.container}>
             {
                 Object.entries(shoes).map(([id, shoe]) => (
-                    <Grid item key={id} xs={3}>
+                    <Grid item key={id} xs='auto' md='auto' lg={3}>
                         <Shoe
                         main_image={shoe.main_image}
                         image_title={id}

@@ -1,0 +1,35 @@
+.container {
+    justify-content: center;
+}
+
+.github  {
+    margin-left: 27%;
+    cursor : pointer;
+    color : black;
+}
+
+@media (max-width : 960px) {
+    .github {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width : 775px) {
+    .github {
+        margin-left: 5%;
+    }
+
+    .info {
+        font-size: small !important;
+    }
+}
+
+@media (max-width : 515px) {
+    .link {
+        font-size: small !important;
+    }
+
+    .info {
+        font-size: xx-small !important;
+    }    
+}

@@ -41,7 +41,7 @@ export default function Shoe(props) {
                     {props.image_title}
                 </h2>
               </Grid>
-              <Grid item>
+              <Grid item xs={1}>
                 <h2>
                     ${props.price}
                 </h2>    

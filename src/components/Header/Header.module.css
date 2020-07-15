@@ -31,12 +31,16 @@
     display: flex !important;
 }
 
-@media (max-width: 770px) {
-    .title {
+@media (max-width : 1285px) {
+    .grid3 {
         display: none;
     }
 
-    .grid3 {
-        display: none;
+    .grid1 {
+        text-align: center;
+    }
+
+    .grid2 {
+        text-align: center;
     }
 }
