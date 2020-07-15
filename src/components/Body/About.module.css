@@ -1,0 +1,53 @@
+.name:hover {
+    font-size: 4rem;
+    font-style: italic;
+}    
+.name {
+    cursor: pointer;
+}
+
+.text1 {
+    font-family : Fondamento !important;
+    text-align: center !important;
+    padding-top: 10% !important;
+    padding-bottom: 5% !important;
+}
+
+.text2 {
+    font-family : Fondamento !important;
+    text-align: center !important;
+    padding-bottom: 5% !important;
+}
+
+.text3 {
+    font-family : Fondamento !important;
+    text-align: center !important;
+    padding-bottom: 10% !important;
+}
+
+.facebook {
+    padding-left: 5% !important;
+    padding-right: 3% !important;
+    color : black !important;
+}
+
+.github {
+    color : black !important;
+}
+
+.github2 {
+    padding-left : 5% !important;
+    color : black !important;
+}
+
+.github:hover {
+    font-size: 3rem;
+}
+
+.github2:hover {
+    font-size: 3rem;
+}
+
+.facebook:hover {
+    font-size: 3rem;
+}
