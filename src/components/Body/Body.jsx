@@ -9,10 +9,11 @@ import {shoes} from '../../data/data'
 import ShoeItem from './ShoeItem'
 import ShoesHome from './ShoesHome'
 import About from './About'
+import cx from 'classnames'
 
 export default function Body() {
     return (
-        <Paper className={styles.container} className={"MuiPaper-elevation2"}>
+        <Paper className={cx(styles.container, "MuiPaper-elevation2")}>
             <Routes>
                 <Route path="home" element={<Home/>}></Route>
                 <Route path="shoe" element={<Shoes/>}>
