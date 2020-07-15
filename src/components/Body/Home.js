@@ -21,13 +21,6 @@ const tutorialSteps = [
       type : "Men's Shoe",
       colors : 1,
     }, {
-      label : "NikeCourt Air Zoom GP Turbo",
-      imgPath : 
-         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/999ea062-7111-48c4-8066-a89613053227/nikecourt-air-zoom-gp-turbo-hard-court-tennis-shoe-29kGpS.jpg",
-      price : 320,
-      type : "Women's Shoe",
-      colors : 2,   
-    }, {
       label : "Nike Air Max Plus",
       imgPath : 
          "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/i1-1980b171-0f44-4074-bae6-71cbef2a2767/air-max-plus-shoe-pBf8wH.jpg",
@@ -49,13 +42,6 @@ const tutorialSteps = [
       price : 270,
       type : "Shoe",
       colors : 1, 
-    } , {
-      label : "Nike Blazer Mid '77",
-      imgPath :
-         "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/kxmb3lab5dmy00qpoyul/blazer-mid-77-vintage-shoe-CBDjT0.jpg",
-      price : 250,
-      type : "Women's Shoe",
-      colors : 1,    
     }
 ];
 

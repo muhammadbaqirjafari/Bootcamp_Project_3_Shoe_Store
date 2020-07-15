@@ -87,7 +87,7 @@ export default function Header() {
             </Grid>
 
             <Grid item xs={12} md={12} lg={8} className={styles.links}>
-              <NavLink to="home" className={ styles.link}>
+              <NavLink to="home" className={styles.link}>
                   Home
               </NavLink>
               <NavLink to="shoe" className={styles.link}>

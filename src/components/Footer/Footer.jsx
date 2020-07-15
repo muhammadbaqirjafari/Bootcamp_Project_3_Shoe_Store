@@ -10,10 +10,10 @@ export default function Footer() {
         <AppBar position='relative' color='transparent'>
             <Toolbar className={styles.container}>
                 <Typography variant="h6" className={styles.info}>
-                    This Website is Created By <span style={{cursor : "pointer"}}>muhammadbaqirjafari@gmail.com</span>
+                    This Website is Created By <span className={styles.gmail}>muhammadbaqirjafari@gmail.com</span>
                 </Typography>
                 <div className={styles.github}>
-                    <Link variant="h6" href="https://github.com/"  style={{color : 'black'}} className={styles.link}>
+                    <Link variant="h6" href="https://github.com/muhammadbaqirjafari/Bootcamp_Assignment_3.git"  style={{color : 'black'}} className={styles.link}>
                         GitHub
                     </Link>
                 </div>

@@ -8,6 +8,14 @@
     color : black;
 }
 
+.gmail {
+    cursor: pointer;
+}
+
+.gmail:hover {
+    font-style: italic;
+}
+
 @media (max-width : 960px) {
     .github {
         margin-left: 10%;

@@ -4,6 +4,8 @@ import {makeStyles} from '@material-ui/core/styles'
 const useStyles = makeStyles({
     media: {
         width: '650px',
+        maxWidth: '100%',
+        height: 'auto',
     },
   });
 

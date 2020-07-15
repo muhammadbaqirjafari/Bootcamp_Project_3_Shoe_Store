@@ -15,7 +15,7 @@ export default function About() {
             </Typography>
             <Typography variant="h2" className={styles.text2}>
                 Source Code :
-                <Link href="#">
+                <Link href="https://github.com/muhammadbaqirjafari/Bootcamp_Assignment_3.git">
                     <GitHub fontSize='large' className={styles.github2} />
                 </Link>
             </Typography>
@@ -24,7 +24,7 @@ export default function About() {
                 <Link href="#">
                     <Facebook fontSize='large' className={styles.facebook} />
                 </Link>
-                <Link href="#">
+                <Link href="https://github.com/muhammadbaqirjafari">
                     <GitHub fontSize='large' className={styles.github} />
                 </Link>
             </Typography>
