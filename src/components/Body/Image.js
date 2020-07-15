@@ -11,6 +11,6 @@ export default function Image({src}){
     const classes = useStyles();
 
     return (
-        <img src={src} alt="Nike Shoe Image" className={classes.media}></img>
+        <img src={src} alt="Nike Shoe" className={classes.media}></img>
     )
 }
